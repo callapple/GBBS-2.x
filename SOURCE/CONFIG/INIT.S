@@ -323,7 +323,7 @@ hard1 ldx #<einit3
  jsr print
  hex 0d,0d,0d
  asc 'Please enter the number of volumes that',0d
- asc 'should  be  alloceted  to the  SuperTac',0d
+ asc 'should  be  allocated  to the  SuperTac',0d
  asc 'file transfer system.',0d,0d,0d
  asc 'Number of volumes? [1-99] ',00
 

@@ -1,0 +1,197 @@
+# Apple II 6502/65C02/65C816 Development .gitignore
+
+# Compiled object files and binaries
+*.obj
+*.o
+*.bin
+*.exe
+*.com
+
+# Apple II specific file types
+*.po          # ProDOS disk images
+*.dsk         # Apple II disk images
+*.do          # DOS disk images
+*.2mg         # 2MG disk images
+*.shk         # ShrinkIt archives
+*.sea         # Self-extracting archives
+*.bxy         # Binary files
+*.bny         # Binary files
+
+# Assembly listing files
+*.lst
+*.list
+*.lis
+
+# Symbol table files
+*.sym
+*.map
+
+# Linker output
+*.lnk
+*.link
+
+# Debug files
+*.dbg
+*.debug
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Editor backup files
+*.orig
+*.rej
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+*.log.*
+
+# Build artifacts
+build/
+dist/
+out/
+target/
+
+# Apple II emulator save states
+*.sav
+*.state
+
+# Apple II specific runtime files
+# (These might be generated during BBS operation)
+*.data
+*.users
+*.access
+*.log
+*.time
+*.snapshot
+
+# Configuration files that might contain sensitive data
+config.local
+*.local
+*.private
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Documentation build artifacts
+*.pdf
+*.html
+*.chm
+
+# Version control
+.svn/
+.hg/
+.bzr/
+
+# Node.js (if any build tools use it)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if any build tools use it)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Java (if any build tools use it)
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# C/C++ (if any build tools use it)
+*.a
+*.la
+*.lo
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Assembly specific
+*.i
+*.s.bak
+*.asm.bak
+
+# Apple II development tools
+# Merlin assembler
+*.merlin
+*.merlin.bak
+
+# CA65 (cc65)
+*.ca65
+*.ca65.bak
+
+# ACME assembler
+*.acme
+*.acme.bak
+
+# Kick Assembler
+*.kick
+*.kick.bak
+
+# Apple II ProDOS specific
+# System files that shouldn't be in version control
+SYSTEM
+SYSTEM.INTERP
+SYSTEM.MISC
+SYSTEM.PASCAL
+SYSTEM.APPLE2
+SYSTEM.UTILS
+SYSTEM.STARTUP
+
+# BBS specific runtime files
+# (These are likely generated during BBS operation)
+*.msg
+*.mail
+*.users
+*.access
+*.log
+*.data
+*.config
+*.system
+
+# Backup and temporary BBS files
+*.bak
+*.old
+*.new
+*.fix
+*.temp
+

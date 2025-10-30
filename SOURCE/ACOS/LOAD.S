@@ -150,8 +150,8 @@ LD_MOD2 LDX FLNAME ;change name back to source
  CMP #"A"
  BGE :STATE1D ;check for variable
 
- LDY #0
- STY LSTTOK
+* LDY #0
+* STY LSTTOK
 
 :STATE1S CMP #public
  BEQ :STATE2A ;is it public?, yep

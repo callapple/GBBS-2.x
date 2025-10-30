@@ -45,7 +45,6 @@ GBBS Pro was a professional-grade BBS system that supported:
 - **File transfers** with various protocols
 - **Message boards** and email systems
 - **Games and entertainment**
-- **Multi-line support** for multiple simultaneous users
 - **Professional features** for commercial BBS operations
 
 ---
@@ -53,7 +52,6 @@ GBBS Pro was a professional-grade BBS system that supported:
 ## ✨ Features
 
 ### 🎯 Core BBS Features
-- **Multi-user support** - Handle multiple simultaneous callers
 - **Message system** - Public and private messaging
 - **File transfers** - Support for various transfer protocols
 - **User management** - Complete user account system
@@ -73,7 +71,6 @@ GBBS Pro was a professional-grade BBS system that supported:
 ### 📡 Communication
 - **Multiple modem support** - Various Hayes-compatible modems
 - **Protocol support** - XMODEM, YMODEM, ZMODEM
-- **Multi-line** - Support for multiple phone lines
 
 ---
 
@@ -139,7 +136,7 @@ SOURCE/
 
 ### Prerequisites
 - Apple II development environment
-- 6502/65C02 assembler (Merlin, CA65, or similar)
+- Merlin 16+ assembler or similar
 - ProDOS development tools
 
 ### Build Process
@@ -149,7 +146,6 @@ SOURCE/
 4. Link the modules together
 5. Create ProDOS disk images
 
-*Detailed build instructions coming soon...*
 
 ---
 

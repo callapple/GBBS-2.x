@@ -10,6 +10,7 @@
 *
 * May, 1991, andy, changed to allocate a 16k input buffer instead
 * of using the normal 2k input buffer
+* Aug 2026, bill martens, fixed hayes result codes
 *-------------------------------------------------
  lst off
 

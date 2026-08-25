@@ -8,6 +8,7 @@
 * Memorial Day 1991, andy, support hayes ultra
 *
 * Jan 2024, paul lee, tcpser result codes
+* Aug 2026, bill martens, fixed hayes result codes
 *-------------------------------------------------
 
  lst off
@@ -37,7 +38,8 @@ SM_OK = 0 ;Modem 'OK'
 SM_Con03 = 1 ;Modem 'CONNECT 300'
 SM_Ring = 2 ;Modem 'RING'
 SM_NoCar = 3 ;Modem 'NO CARRIER'
-SM_Con12 = 4 ;Modem 'CONNECT 1200'
+SM_Con12 = 4 ;Modem 'ERROR'
+SM_Con12 = 5 ;Modem 'CONNECT 1200'
 SM_Con24 = 10 ;Modem 'CONNECT 2400'
 SM_Con48 = 11 ;Modem 'CONNECT 4800'
 SM_Con96 = 12 ;Modem 'CONNECT 9600'
